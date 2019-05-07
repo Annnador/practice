@@ -1,4 +1,138 @@
+* {
+    outline: 2px solid red;
+}
 
-.text {
+body {
     font-family: 'Montserrat', 'Nunito Sans', sans-serif;
+}
+.head {
+    display: inline-block;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 avto;
+}
+.site-logo {
+    display: inline-block;
+    padding-left: 100px;
+}
+.site-navigation {
+    list-style: none;
+    font-size: 12px;
+    line-height: 24px;
+    width: 250px;
+    float: right;
+}
+.site-navigation li {
+    float: left;
+    margin-right: 30px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.site-navigation a {
+    color: #0f0101;
+    font-weight: bold;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.site-navigation li:nth-child(6) {
+    margin-right: 0;
+}
+.site-navigation a:hover {
+    color: #1abc9c;
+}
+.name {
+    height: 350px;
+    background-color: #3e3e3e;
+    text-align: center;
+    padding-top: 120px;
+}
+.name-page {
+    font-size: 38px;
+    line-height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.text {
+    font-size: 18px;
+    line-height: 28px;
+}
+.pictures {
+    display: block;
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+.about {
+    display: block;
+    background-color: #10c9c3;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 90px;
+}
+.pictures-menu {
+    float: left;
+    padding-left: 30px;
+
+}
+.pictures-menu:nth-child(4) {
+    margin-right: 0;
+}
+.text-in {
+    display: inline-block;
+    padding-left: 20px;
+}
+h3 {
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+.about-me {
+    display: inline-block;
+}
+.about-pic {
+    display: inline-block;
+    background-color: #e1e1e1;
+    width: 582px;
+   
+
+}
+.about-me-in {
+    display: inline-block;
+    width: 582px;
+    
+}
+.name-about {
+    font-size: 30px;
+    line-height: 84px;
+    text-align: center;
+
+}
+.text-about {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+.text-about-in {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+.img-pic {
+    padding-left: 100px;
 }
